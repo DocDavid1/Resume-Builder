@@ -1,0 +1,52 @@
+#FormId {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #4a45c265;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 80px; /* Add a margin to push it down below the sticky navbar */
+}
+
+#formInput {
+  padding: 2vh;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div {
+  margin: 10px 0;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+textarea,
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

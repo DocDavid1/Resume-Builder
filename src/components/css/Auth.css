@@ -1,0 +1,48 @@
+body {
+    background-color: rgba(78, 78, 129, 0.559);
+    margin: 0; /* Reset default body margin */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make the body full height */
+}
+
+#formTOlog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+}
+
+#formTOlog input {
+    width: 60vh; /* Take up the full width of the container */
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+#formTOlog button {
+    width: 8rem; /* Take up the full width of the container */
+    height: 7vh;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(78, 78, 129);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#formTOlog button:hover {
+    background-color: #000f94;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
